@@ -3,7 +3,8 @@ import "simplelightbox/dist/simple-lightbox.min.css";*/
 // Описаний в документації
 //import SimpleLightbox from "simplelightbox";
 window.global = window;
-import SimpleLightbox from "simplelightbox/dist/simple-lightbox.esm";
+import SimpleLightbox from "simplelightbox";
+//import SimpleLightbox from "simplelightbox/dist/simple-lightbox.esm";
 // Додатковий імпорт стилів
 import "simplelightbox/dist/simple-lightbox.min.css";
 
