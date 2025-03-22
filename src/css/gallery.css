@@ -1,0 +1,30 @@
+ul,
+ol,
+li {
+  list-style-type: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  marker: none;
+}
+
+.gallery-image {
+  display: block;
+  width: 360px;
+  height: 200px;
+  object-fit: cover;
+  transition: transform 0.3s ease-in-out;
+  transform-origin: center;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 360px);
+  column-gap: 24px;
+  row-gap: 48px;
+  justify-content: center;
+}
+
+.gallery-image:hover {
+  transform: scale(1.044); /* 376/360 = 1.044, 208/200 = 1.04 */
+}
