@@ -1,0 +1,101 @@
+.feedback-form{
+    display: flex;
+    align-items:  flex-start;
+    flex-direction: column;
+    /*gap: 16px;*/
+    min-width: 288px;
+
+    border-radius: 8px;
+    padding: 24px;
+    width: 408px;
+
+    background: #fff;
+}
+
+label{
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    gap: 8px;
+    
+    /* line-height: 24px; */ 
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+input{
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-bottom: 8px;
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+
+    /* line-height: 24px; */ 
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+input:hover{
+    border: 1px solid #000;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+}
+
+.feedback-form input:focus,
+.feedback-form textarea:focus {
+  outline: none;  /* Вимикає синій контур (outline) */
+  border: 1px solid #808080;
+}
+
+textarea{
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 80px; 
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 8px;
+    margin-bottom: 16px;
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+
+    /* line-height: 24px; */ 
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+button{
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 95px;
+    height: 40px;
+    background-color: #4e75ff;
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+
+    /* line-height: 24px; */ 
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+
+button:hover{
+    background: #6c8cff; 
+}

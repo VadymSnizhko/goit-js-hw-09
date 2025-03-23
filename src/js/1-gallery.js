@@ -92,8 +92,7 @@ const listImage = images
   .join("");
 gallery.insertAdjacentHTML("afterbegin", listImage);
 
-// Ініціалізація SimpleLightbox
 const lightbox = new SimpleLightbox(".gallery a", {
-    captionsData: "alt", // Відображення підписів із атрибута alt
-    captionDelay: 250,   // Затримка появи підпису (250 мс)
+    captionsData: "alt", 
+    captionDelay: 250,   
   });
