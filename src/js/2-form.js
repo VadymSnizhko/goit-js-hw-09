@@ -52,6 +52,15 @@ form.addEventListener("submit",submitForm);
 
 function submitForm(event){
     event.preventDefault();
-    localStorage.removeItem(LSKey);
-    form.reset();
+
+    if(textEmail.value.length && textMessage.value.length)
+    {
+        console.log(formData);
+        formData.email = "";
+        formData.message = "";
+        localStorage.removeItem(LSKey);
+        form.reset();
+    }else{
+        alert('Fill please all fields');
+    }
 }
